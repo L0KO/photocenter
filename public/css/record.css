@@ -1,0 +1,64 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  /* padding: 0 10%; */
+  background-image: url(/img/record.jpg);
+}
+
+.mainContainer{
+  margin: 10% 30%;
+  display: flex;
+  background-color: #fff;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.subContainer form{
+  margin: 10%;
+  display: flex;
+  flex-direction: column;
+}
+
+.subContainer form input{
+  margin-top: 15px;
+  padding: 10px 20px;
+}
+
+.subContainer form input:first-child{
+  margin-top: 0;
+}
+
+a{
+  background-color: #3a7bad;
+  color: #fff;
+  text-decoration: none;
+  padding: 14px 18px;
+  font-weight: 700;
+
+  transition: background-color 0.3s linear;
+  text-decoration: none;
+}
+
+a:hover {
+  background-color: #071072;
+}
+
+.send-form{
+  background-color: #3a7bad;
+  color: #fff;
+  text-decoration: none;
+  padding: 14px 18px;
+  font-weight: 700;
+  border: none;
+
+  transition: background-color 0.3s linear;
+  text-decoration: none;
+}
+
+.send-form:hover{
+  background-color: #071072;
+  cursor: pointer;
+}
