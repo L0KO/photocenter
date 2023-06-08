@@ -8,7 +8,7 @@ const port = 3000;
 app.use(express.static('public'));
 app.use(express.urlencoded({ extended: false }));
 
-const sequelize = new Sequelize('postgres://postgres:123@localhost:5432/photocenter');
+const sequelize = new Sequelize('postgres://postgres:Pass@localhost:5432/photocenter');
 
 const Records = sequelize.define('Records', {
   FIO: {
